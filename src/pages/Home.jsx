@@ -23,7 +23,7 @@ const Home = () => {
             Gajak, chikki, revri, namkeens, and more. Made with tradition, passion, and the finest ingredients.
           </p>
           <div className="hero-cta">
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            <a href="https://wa.me/919415419175" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               Order Now
             </a>
             <Link to="/menu" className="btn btn-primary">
@@ -77,7 +77,7 @@ const Home = () => {
                 <p className="product-desc">Traditional winter delicacy made with premium jaggery and sesame seeds.</p>
                 <div className="product-footer">
                   <span className="product-price">₹450 <span className="price-unit">/ kg</span></span>
-                  <a href="https://wa.me/919876543210?text=I'd like to order Special Gud Gajak" className="btn btn-primary btn-sm">Order</a>
+                  <a href="https://wa.me/919415419175?text=I'd like to order Special Gud Gajak" className="btn btn-primary btn-sm">Order</a>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ const Home = () => {
                 <p className="product-desc">Crunchy peanuts blended with sweet jaggery for the perfect snack.</p>
                 <div className="product-footer">
                   <span className="product-price">₹350 <span className="price-unit">/ kg</span></span>
-                  <a href="https://wa.me/919876543210?text=I'd like to order Peanut Chikki" className="btn btn-primary btn-sm">Order</a>
+                  <a href="https://wa.me/919415419175?text=I'd like to order Peanut Chikki" className="btn btn-primary btn-sm">Order</a>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Home = () => {
                 <p className="product-desc">A spicy and savory blend of traditional Indian namkeens.</p>
                 <div className="product-footer">
                   <span className="product-price">₹280 <span className="price-unit">/ 500g</span></span>
-                  <a href="https://wa.me/919876543210?text=I'd like to order Special Namkeen Mix" className="btn btn-primary btn-sm">Order</a>
+                  <a href="https://wa.me/919415419175?text=I'd like to order Special Namkeen Mix" className="btn btn-primary btn-sm">Order</a>
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@ const Home = () => {
       </section>
 
       {/* WhatsApp Floating Button */}
-      <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="floating-whatsapp" aria-label="Chat on WhatsApp">
+      <a href="https://wa.me/919415419175" target="_blank" rel="noopener noreferrer" className="floating-whatsapp" aria-label="Chat on WhatsApp">
         <svg viewBox="0 0 32 32" className="whatsapp-icon" xmlns="http://www.w3.org/2000/svg">
           <path d="M16 2a13.93 13.93 0 0 0-11.83 21.36L2 30l6.81-2.14A13.94 13.94 0 1 0 16 2zm0 25.54a11.53 11.53 0 0 1-5.88-1.61l-.42-.25-4.37 1.37 1.4-4.22-.28-.44A11.55 11.55 0 1 1 16 27.54zm6.54-8.9c-.36-.18-2.13-1.05-2.46-1.17-.33-.12-.57-.18-.8.18-.24.36-.93 1.17-1.14 1.41-.21.24-.42.27-.78.09a9.54 9.54 0 0 1-4.74-4.14c-.21-.37 0-.57.18-.75.16-.16.36-.42.54-.63.18-.21.24-.36.36-.6.12-.24.06-.45-.03-.63-.09-.18-.8-1.92-1.1-2.64-.28-.69-.57-.6-.8-.6h-.69c-.24 0-.63.09-.96.45s-1.26 1.23-1.26 3.03 1.29 3.54 1.47 3.78c.18.24 2.58 3.93 6.24 5.52.87.39 1.56.63 2.1.81.87.27 1.68.24 2.31.15.72-.12 2.13-.87 2.43-1.71.3-.84.3-1.56.21-1.71-.09-.18-.33-.27-.69-.45z" fill="white"></path>
         </svg>

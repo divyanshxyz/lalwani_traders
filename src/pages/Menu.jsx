@@ -31,7 +31,7 @@ const Menu = () => {
 
   const handleOrderClick = (itemName) => {
     const message = encodeURIComponent(`Hello, I would like to order: ${itemName}`);
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/919415419175?text=${message}`, '_blank');
   };
 
   return (

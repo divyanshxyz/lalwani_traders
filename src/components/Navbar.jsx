@@ -26,17 +26,13 @@ const Navbar = () => {
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo">
           <ShoppingBag className="logo-icon" />
-          <span>Lalwani Traders</span>
+          <span>Shri Lalwani Traders</span>
         </Link>
 
         <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
           <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link>
-          <Link to="/menu" className={`nav-link ${location.pathname === '/menu' ? 'active' : ''}`}>Menu</Link>
-          <Link to="/about" className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}>About & Contact</Link>
-          
-          <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="btn btn-primary nav-cta">
-            Order Now
-          </a>
+          <Link to="/menu" className={`nav-link ${location.pathname === '/menu' ? 'active' : ''}`}>Products</Link>
+          <Link to="/about" className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}>Contact</Link>
         </nav>
 
         <button className="mobile-toggle" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">

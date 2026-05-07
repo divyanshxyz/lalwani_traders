@@ -16,10 +16,10 @@ const Footer = () => {
           <div className="footer-col">
             <Link to="/" className="footer-logo">
               <ShoppingBag className="logo-icon" />
-              <span>Lalwani Traders</span>
+              <span>Shri Lalwani Traders</span>
             </Link>
             <p className="footer-desc">
-              Freshly baked happiness every day. We craft premium cakes, pastries, breads, and snacks with love and the finest ingredients.
+              Premium Indian delicacies since generations. We offer the finest gajak, chikki, revri, and namkeens made with authentic recipes.
             </p>
             <div className="social-links">
               <a href="#" aria-label="Facebook"><FacebookIcon /></a>
@@ -32,20 +32,19 @@ const Footer = () => {
             <h4 className="footer-title">Quick Links</h4>
             <ul className="footer-links">
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/menu">Our Menu</Link></li>
-              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/menu">Products</Link></li>
               <li><Link to="/about">Contact</Link></li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h4 className="footer-title">Our Menu</h4>
+            <h4 className="footer-title">Products</h4>
             <ul className="footer-links">
-              <li><Link to="/menu">Custom Cakes</Link></li>
-              <li><Link to="/menu">Fresh Pastries</Link></li>
-              <li><Link to="/menu">Cookies & Biscuits</Link></li>
-              <li><Link to="/menu">Daily Breads</Link></li>
-              <li><Link to="/menu">Savory Snacks</Link></li>
+              <li><Link to="/menu">Gajak</Link></li>
+              <li><Link to="/menu">Chikki</Link></li>
+              <li><Link to="/menu">Revri</Link></li>
+              <li><Link to="/menu">Namkeens</Link></li>
+              <li><Link to="/menu">Assorted Sweets</Link></li>
             </ul>
           </div>
 
@@ -60,14 +59,14 @@ const Footer = () => {
               </li>
               <li>
                 <Phone size={18} className="contact-icon" />
-                <a href="tel:+919140589383">
-                  +91 9140589383
+                <a href="tel:+919415419175">
+                  +91 9415419175
                 </a>
               </li>
               <li>
                 <Mail size={18} className="contact-icon" />
-                <a href="mailto:hello@lalwanitraders.in">
-                  hello@lalwanitraders.in
+                <a href="mailto:hello@shrilalwanitraders.in">
+                  hello@shrilalwanitraders.in
                 </a>
               </li>
             </ul>
@@ -76,7 +75,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Lalwani Traders. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Shri Lalwani Traders. All rights reserved.</p>
         </div>
       </div>
     </footer>

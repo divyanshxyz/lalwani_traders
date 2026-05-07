@@ -10,25 +10,24 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Prakash Bakery | Fresh Cakes, Pastries & Bakery Items</title>
-        <meta name="description" content="Freshly baked happiness every day. Cakes, pastries, breads, and snacks made with love at Lalwani Traders." />
+        <title>Shri Lalwani Traders | Authentic Indian Delicacies</title>
+        <meta name="description" content="Authentic Indian delicacies such as gajak, chikki, revri, and namkeens. Quality products from Shri Lalwani Traders." />
       </Helmet>
       
       {/* Hero Section */}
       <section className="hero-section">
-        <div className="hero-overlay"></div>
         <div className="container hero-content animate-fade-in-up">
-          <span className="hero-badge">Welcome to Lalwani Traders</span>
-          <h1 className="hero-title">Freshly Baked Happiness Every Day</h1>
+          <span className="hero-badge">Welcome to Shri Lalwani Traders</span>
+          <h1 className="hero-title">Authentic Indian Delicacies</h1>
           <p className="hero-subtitle">
-            Cakes, pastries, breads, and snacks made with love, passion, and the finest ingredients.
+            Gajak, chikki, revri, namkeens, and more. Made with tradition, passion, and the finest ingredients.
           </p>
           <div className="hero-cta">
             <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               Order Now
             </a>
-            <Link to="/menu" className="btn btn-secondary hero-btn-alt">
-              Explore Menu
+            <Link to="/menu" className="btn btn-primary">
+              Explore Products
             </Link>
           </div>
         </div>
@@ -40,13 +39,13 @@ const Home = () => {
           <div className="grid grid-cols-4 highlights-grid">
             <div className="highlight-item">
               <div className="highlight-icon"><Clock size={32} /></div>
-              <h3>Fresh Daily</h3>
-              <p>Baked fresh every morning for the best taste.</p>
+              <h3>Fresh Stock</h3>
+              <p>Freshly prepared stock for the best taste and crunch.</p>
             </div>
             <div className="highlight-item">
               <div className="highlight-icon"><Heart size={32} /></div>
-              <h3>Made with Love</h3>
-              <p>Crafted by passionate and experienced bakers.</p>
+              <h3>Authentic Taste</h3>
+              <p>Crafted by following traditional Indian recipes.</p>
             </div>
             <div className="highlight-item">
               <div className="highlight-icon"><Truck size={32} /></div>
@@ -73,46 +72,36 @@ const Home = () => {
           <div className="grid grid-cols-3">
             {/* Product 1 */}
             <div className="card product-card">
-              <div className="product-img-wrapper">
-                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1089&auto=format&fit=crop" alt="Black Forest Cake" className="product-img" />
-                <span className="product-badge">Best Seller</span>
-              </div>
               <div className="product-info">
-                <h3 className="product-name">Signature Black Forest</h3>
-                <p className="product-desc">Rich chocolate sponge layered with fresh cream and cherries.</p>
+                <h3 className="product-name">Special Gud Gajak</h3>
+                <p className="product-desc">Traditional winter delicacy made with premium jaggery and sesame seeds.</p>
                 <div className="product-footer">
-                  <span className="product-price">₹550</span>
-                  <a href="https://wa.me/919876543210?text=I'd like to order the Signature Black Forest cake" className="btn btn-primary btn-sm">Order</a>
+                  <span className="product-price">₹450 <span className="price-unit">/ kg</span></span>
+                  <a href="https://wa.me/919876543210?text=I'd like to order Special Gud Gajak" className="btn btn-primary btn-sm">Order</a>
                 </div>
               </div>
             </div>
 
             {/* Product 2 */}
             <div className="card product-card">
-              <div className="product-img-wrapper">
-                <img src="https://images.unsplash.com/photo-1621236378699-8597faf6a176?q=80&w=2000&auto=format&fit=crop" alt="Butter Croissants" className="product-img" />
-              </div>
               <div className="product-info">
-                <h3 className="product-name">Classic Butter Croissants</h3>
-                <p className="product-desc">Flaky, buttery, and baked to golden perfection every morning.</p>
+                <h3 className="product-name">Peanut Chikki</h3>
+                <p className="product-desc">Crunchy peanuts blended with sweet jaggery for the perfect snack.</p>
                 <div className="product-footer">
-                  <span className="product-price">₹120 <span className="price-unit">/ 2 pcs</span></span>
-                  <a href="https://wa.me/919876543210?text=I'd like to order Classic Butter Croissants" className="btn btn-primary btn-sm">Order</a>
+                  <span className="product-price">₹350 <span className="price-unit">/ kg</span></span>
+                  <a href="https://wa.me/919876543210?text=I'd like to order Peanut Chikki" className="btn btn-primary btn-sm">Order</a>
                 </div>
               </div>
             </div>
 
             {/* Product 3 */}
             <div className="card product-card">
-              <div className="product-img-wrapper">
-                <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=1064&auto=format&fit=crop" alt="Assorted Cookies" className="product-img" />
-              </div>
               <div className="product-info">
-                <h3 className="product-name">Choco-Chip Cookies</h3>
-                <p className="product-desc">Crispy on the outside, chewy on the inside with rich chocolate chips.</p>
+                <h3 className="product-name">Special Namkeen Mix</h3>
+                <p className="product-desc">A spicy and savory blend of traditional Indian namkeens.</p>
                 <div className="product-footer">
-                  <span className="product-price">₹250 <span className="price-unit">/ 500g</span></span>
-                  <a href="https://wa.me/919876543210?text=I'd like to order Choco-Chip Cookies" className="btn btn-primary btn-sm">Order</a>
+                  <span className="product-price">₹280 <span className="price-unit">/ 500g</span></span>
+                  <a href="https://wa.me/919876543210?text=I'd like to order Special Namkeen Mix" className="btn btn-primary btn-sm">Order</a>
                 </div>
               </div>
             </div>
@@ -128,21 +117,18 @@ const Home = () => {
       <section className="section section-light">
         <div className="container">
           <div className="fresh-bread-layout">
-            <div className="fresh-bread-img-box">
-              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2072&auto=format&fit=crop" alt="Fresh Artisan Breads" className="fresh-bread-img" />
-            </div>
             <div className="fresh-bread-content">
-              <span className="section-tag">Daily Fresh</span>
-              <h2 className="section-title">Artisan Breads Baked Daily</h2>
+              <span className="section-tag">Pure & Authentic</span>
+              <h2 className="section-title">Authentic Indian Delicacies</h2>
               <p className="fresh-bread-desc">
-                Our breads are made using traditional methods, taking time to develop the perfect flavor and crust. From sourdough to whole wheat, experience the true taste of authentic baking.
+                Our products are made using traditional methods, taking time to develop the perfect flavor and crunch. From winter special gajak to year-round chikki, experience the true taste of authentic Indian snacks.
               </p>
               <ul className="fresh-bread-list">
-                <li><Award size={20} className="text-warm-brown"/> 100% Organic Wheat</li>
+                <li><Award size={20} className="text-warm-brown"/> 100% Natural Ingredients</li>
                 <li><Award size={20} className="text-warm-brown"/> No Artificial Preservatives</li>
-                <li><Award size={20} className="text-warm-brown"/> Natural Sourdough Starter</li>
+                <li><Award size={20} className="text-warm-brown"/> Traditional Hand-crafted Process</li>
               </ul>
-              <Link to="/menu" className="btn btn-primary">Discover Breads</Link>
+              <Link to="/menu" className="btn btn-primary">Discover Products</Link>
             </div>
           </div>
         </div>
@@ -163,7 +149,7 @@ const Home = () => {
                 <Star size={18} fill="#ffc107" color="#ffc107" />
                 <Star size={18} fill="#ffc107" color="#ffc107" />
               </div>
-              <p className="testimonial-text">"The Black Forest cake was absolutely divine! It was so fresh and the cream was perfect. Everyone at the party loved it."</p>
+              <p className="testimonial-text">"The Gud Gajak was absolutely divine! It was so fresh and crunchy. Best quality in Lucknow."</p>
               <h4 className="testimonial-author">- Priya S.</h4>
             </div>
             <div className="testimonial-card">
@@ -174,7 +160,7 @@ const Home = () => {
                 <Star size={18} fill="#ffc107" color="#ffc107" />
                 <Star size={18} fill="#ffc107" color="#ffc107" />
               </div>
-              <p className="testimonial-text">"I buy my daily bread from Lalwani Traders. The sourdough is the best I've had in the city. Highly recommended!"</p>
+              <p className="testimonial-text">"I buy my monthly namkeen stock from Shri Lalwani Traders. The mix is the best I've had. Highly recommended!"</p>
               <h4 className="testimonial-author">- Rahul M.</h4>
             </div>
             <div className="testimonial-card">
@@ -185,7 +171,7 @@ const Home = () => {
                 <Star size={18} fill="#ffc107" color="#ffc107" />
                 <Star size={18} fill="#ffc107" color="#ffc107" />
               </div>
-              <p className="testimonial-text">"Their customized birthday cakes are amazing. Beautifully designed and tastes even better. Thank you for making my son's birthday special."</p>
+              <p className="testimonial-text">"Their chikki is amazing. Perfectly sweet and very healthy. Thank you for maintaining such quality."</p>
               <h4 className="testimonial-author">- Anjali K.</h4>
             </div>
           </div>
@@ -195,27 +181,8 @@ const Home = () => {
       {/* Instagram Gallery */}
       <section className="section section-light">
         <div className="container text-center">
-          <h2 className="section-title">Follow Us on Instagram</h2>
-          <p className="section-subtitle">@LalwaniTradersBakery</p>
-
-          <div className="grid grid-cols-4 gallery-grid">
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=2070&auto=format&fit=crop" alt="Gallery 1" />
-              <div className="gallery-overlay"><InstagramIcon /></div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1612203985729-70726954388c?q=80&w=1064&auto=format&fit=crop" alt="Gallery 2" />
-              <div className="gallery-overlay"><InstagramIcon /></div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=2070&auto=format&fit=crop" alt="Gallery 3" />
-              <div className="gallery-overlay"><InstagramIcon /></div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1605807616950-1d8e057bac88?q=80&w=1074&auto=format&fit=crop" alt="Gallery 4" />
-              <div className="gallery-overlay"><InstagramIcon /></div>
-            </div>
-          </div>
+          <h2 className="section-title">Follow Us</h2>
+          <p className="section-subtitle">@ShriLalwaniTraders</p>
         </div>
       </section>
 

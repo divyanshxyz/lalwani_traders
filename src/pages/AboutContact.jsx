@@ -36,15 +36,15 @@ const AboutContact = () => {
   return (
     <>
       <Helmet>
-        <title>About Us & Contact | Lalwani Traders Bakery</title>
-        <meta name="description" content="Learn about our bakery story, quality commitment, and get in touch with Lalwani Traders." />
+        <title>About Us & Contact | Shri Lalwani Traders</title>
+        <meta name="description" content="Learn about our legacy, quality commitment, and get in touch with Shri Lalwani Traders." />
       </Helmet>
 
       {/* Page Header */}
       <div className="page-header about-header">
         <div className="container">
           <h1 className="page-title animate-fade-in-up">Our Story & Contact</h1>
-          <p className="page-subtitle animate-fade-in-up">Baking memories since 2010</p>
+          <p className="page-subtitle animate-fade-in-up">Serving tradition since decades</p>
         </div>
       </div>
 
@@ -53,30 +53,26 @@ const AboutContact = () => {
         <div className="container">
           <div className="about-layout">
             <div className="about-content">
-              <h2 className="section-title">The Lalwani Traders Legacy</h2>
+              <h2 className="section-title">The Shri Lalwani Traders Legacy</h2>
               <p className="about-text">
-                What started as a humble home kitchen has blossomed into one of the city's most beloved bakeries. Lalwani Traders was founded on a simple principle: baking should be an act of love.
+                Shri Lalwani Traders has been a household name for authentic Indian delicacies. We specialize in traditional snacks that bring the taste of India to your home.
               </p>
               <p className="about-text">
-                Our founder believed that every celebration, big or small, deserves a cake that not only looks stunning but tastes absolutely divine. We source only the finest, premium ingredients—real butter, rich cocoa, and fresh seasonal fruits—to ensure every bite is a moment of joy.
+                Our legacy is built on a simple principle: quality should never be compromised. We source only the finest, premium ingredients—pure jaggery, high-quality nuts, and fresh sesame seeds—to ensure every bite is a moment of joy.
               </p>
               <p className="about-text">
-                Today, our skilled artisans wake up before dawn to knead fresh dough and whip up fluffy creams. We are committed to maintaining the traditional, authentic taste while constantly innovating to bring you exciting new flavors.
+                Today, we continue to serve our customers with the same passion and dedication. We are committed to maintaining the traditional, authentic taste of gajak, chikki, and revri while ensuring the highest standards of hygiene and quality.
               </p>
               
               <div className="quality-commitment">
                 <h3>Our Promise to You</h3>
                 <ul>
-                  <li>100% Eggless Options Available</li>
-                  <li>No Artificial Preservatives in Breads</li>
-                  <li>Baked Fresh Every Single Morning</li>
-                  <li>Custom Designs for Every Occasion</li>
+                  <li>100% Natural & Pure Ingredients</li>
+                  <li>Traditional Authentic Recipes</li>
+                  <li>Fresh Stock Prepared Regularly</li>
+                  <li>Premium Quality in Every Pack</li>
                 </ul>
               </div>
-            </div>
-            <div className="about-images">
-              <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop" alt="Bakery Interior" className="about-img main-img" />
-              <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1050&auto=format&fit=crop" alt="Baking Process" className="about-img sub-img" />
             </div>
           </div>
         </div>
@@ -112,7 +108,7 @@ const AboutContact = () => {
                   <div>
                     <h4>Call Us</h4>
                     <p>
-                      <a href="tel:+919140589383">+91 9140589383</a>
+                      <a href="tel:+919415419175">+91 9415419175</a>
                     </p>
                   </div>
                 </div>
@@ -122,8 +118,7 @@ const AboutContact = () => {
                   <div>
                     <h4>Email Us</h4>
                     <p>
-                      <a href="mailto:hello@lalwanitraders.in">hello@lalwanitraders.in</a><br/>
-                      <a href="mailto:orders@lalwanitraders.in">orders@lalwanitraders.in</a>
+                      <a href="mailto:hello@shrilalwanitraders.in">hello@shrilalwanitraders.in</a>
                     </p>
                   </div>
                 </div>
@@ -132,7 +127,7 @@ const AboutContact = () => {
                   <div className="info-icon"><Clock size={24} /></div>
                   <div>
                     <h4>Opening Hours</h4>
-                    <p>Mon - Sat: 8:00 AM - 9:00 PM<br/>Sunday: 9:00 AM - 10:00 PM</p>
+                    <p>Mon - Sat: 10:00 AM - 9:00 PM<br/>Sunday: Closed</p>
                   </div>
                 </div>
               </div>
@@ -140,7 +135,7 @@ const AboutContact = () => {
               {/* Google Map Embed (Placeholder using iframe) */}
               <div className="map-container">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.06889691901111!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.8524793167608!2d80.9225612!3d26.844644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfdb74cd0e3fb:0x6e5008c0188c3af2!2sShri+Lalwani+Traders!5e0!3m2!1sen!2sin!4v1715000000000!5m2!1sen!2sin" 
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
